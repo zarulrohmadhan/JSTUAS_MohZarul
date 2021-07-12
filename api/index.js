@@ -10,7 +10,7 @@ const token = '1801727828:AAHncjz56vZ44m_va6vYGBaefUHLMWBHfP0'
 const bot = new TelegramBot(token, {polling: true});
 
 
-// bots
+// bots 
 bot.onText(/\/start/, (msg) => { 
     console.log(msg)
     bot.sendMessage(
