@@ -1,7 +1,7 @@
 var express = require('express');
 var r = express.Router();
 
-// load pre-trained model
+// load pre-trained model 
 const model = require('./sdk/model.js');
 
 // Bot Setting
